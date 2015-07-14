@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Codice Fiscale</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<script type="text/javascript" src="belfiore.json"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body onload="fillComuni();">
+		<input type = "text" id = "_CFiscale" readonly/>
+		<input type = "text" id = "_cogn" required placeholder = "solo car. alfabetici e spazi" pattern ="[a-zA-Z|\s]*"/>
+		<input type = "text" id = "_nome" required placeholder = "solo car. alfabetici e spazi" pattern ="[a-zA-Z|\s]*"/>
+		<input type = "text" id = "_sess" required placeholder = " -" pattern ="[mM|fF]{1}"/>
+		<input list = "locations" id = "_luog"/>
+		<datalist id="locations"></datalist>
+		<input type = "text" id = "_prov" required placeholder = "--" pattern ="[a-zA-Z]{2}" readonly/>
+		<input type = "number" id = "_gNas" required placeholder="1" min="1" max="31"/>
+		<input type = "number" id = "_mNas" required placeholder="1" min="1" max="12"/>
+		<input type = "number" id = "_aNas" required placeholder="1950" min="1900" max="2030"/>
+		<button id="_check" onclick="validityCheck();">Validazione e calcolo Codice Fiscale</button>	
+	</body>
+</html>
