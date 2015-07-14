@@ -128,8 +128,8 @@ var codice08Mese_di_Nascita = function(){
 };
 var codice09_10Giorno_di_Nascita = function(){
 	gn = +(document.getElementById("_gNas").value);
-	sesso = document.getElementById("_sess").value;
-	if (sesso == 'F'){
+	checked = document.getElementById("_female").checked;
+	if (checked){
 		gn+=40;
 	};
 	// 2 cifre

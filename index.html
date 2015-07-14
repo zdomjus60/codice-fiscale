@@ -11,7 +11,10 @@
 		<input type = "text" id = "_CFiscale" readonly/>
 		<input type = "text" id = "_cogn" required placeholder = "solo car. alfabetici e spazi" pattern ="[a-zA-Z|\s]*"/>
 		<input type = "text" id = "_nome" required placeholder = "solo car. alfabetici e spazi" pattern ="[a-zA-Z|\s]*"/>
-		<input type = "text" id = "_sess" required placeholder = " -" pattern ="[mM|fF]{1}"/>
+		<div id = "_sesso">
+			<input type = "radio" id="_male" name = "sesso" value = "M" checked />M
+			<input type = "radio" id="_female" name = "sesso" value = "F" />F
+		</div>
 		<input list = "locations" id = "_luog"/>
 		<datalist id="locations"></datalist>
 		<input type = "text" id = "_prov" required placeholder = "--" pattern ="[a-zA-Z]{2}" readonly/>
