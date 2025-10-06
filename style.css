@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa; /* Colore di sfondo leggero per la pagina */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border: none; /* Rimuove il bordo della card per un look più pulito con l'ombra */
+}
+
+#_CFiscale {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.cf-result-field {
+    background-color: #e9ecef; /* Sfondo leggermente diverso per il risultato */
+    border: 1px solid #ced4da; /* Bordo sottile */
+    color: #000; /* Testo nero per chiarezza */
+}
+
+.card-header h1 {
+    font-weight: 300; /* Titolo più leggero */
+}
