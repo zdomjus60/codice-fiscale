@@ -18,6 +18,9 @@ body {
     background-color: #e9ecef; /* Sfondo leggermente diverso per il risultato */
     border: 1px solid #ced4da; /* Bordo sottile */
     color: #000; /* Testo nero per chiarezza */
+    font-size: 2.5rem; /* Dimensione del font significativamente più grande */
+    padding: 1rem 0.5rem; /* Più spazio interno */
+    height: auto; /* Altezza automatica in base al contenuto */
 }
 
 .card-header h1 {
